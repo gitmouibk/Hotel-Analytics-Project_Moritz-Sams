@@ -9,10 +9,7 @@ def load_and_clean_data():
     import numpy as np
     import matplotlib.pyplot as plt
     
-    df = pd.read_csv(
-        r"C:/Users/moritz.sams/OneDrive - IVM Institut für Verwaltungsmanagement GmbH/Desktop/LasVegasTripAdvisorReviews-Dataset.csv",
-        sep=";"
-    )
+    df = pd.read_csv("data/LasVegasTripAdvisorReviews-Dataset.csv", sep=";")
 
     df_clean = df.copy()
 
